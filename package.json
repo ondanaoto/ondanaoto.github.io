@@ -2,10 +2,11 @@
   "name": "profile",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ondanaoto.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "deploy": "next build && gh-pages -d out",
+    "deploy": "yarn build && gh-pages -d out",
     "start": "next start",
     "lint": "next lint"
   },
