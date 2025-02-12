@@ -6,11 +6,7 @@
   "scripts": {
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "rm": "rm -rf docs",
-    "mv": "mv build docs",
-    "git": "git add . && git commit && git push origin master",
-    "deploy": "npm run rm && npm run build && npm run mv && npm run git"
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^19.0.0",
