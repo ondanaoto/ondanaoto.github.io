@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: ./next
+      dockerfile: Dockerfile
+    volumes:
+      - ./next/:/app
+    command: ["npm", "start"]
+    container_name: onda-timer-app
+    ports:
+      - 3000:3000
+    stdin_open: true
